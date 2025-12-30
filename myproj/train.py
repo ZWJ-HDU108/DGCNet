@@ -3,9 +3,9 @@ import os
 from torch.utils.tensorboard import SummaryWriter
 import torch.optim as optim
 from tqdm import tqdm
-from models.Dynamic_Global_ConvolutionNet_B import *
-from models.regularizer import *
-from models.ASL import AsymmetricLoss
+from model.Dynamic_Global_ConvolutionNet_B import *
+from model.regularizer import *
+from model.ASL import AsymmetricLoss
 from data.dataProcess import *
 import torch
 
