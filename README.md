@@ -16,7 +16,7 @@ The method leverages **Dynamic Global Convolutions** to capture both local detai
 ## 📂 Directory Structure
 
 ```text
-├── models/
+├── model/
 │   ├── Dynamic_Global_ConvolutionNet_B.py  # DGCNet Model Architecture (Backbone & Head)
 │   ├── ASL.py                              # Asymmetric Loss Function
 │   └── regularizer.py                      # L1/L2/Group Lasso Regularization Tools
