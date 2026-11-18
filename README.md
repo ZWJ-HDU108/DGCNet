@@ -1,4 +1,4 @@
-# DGCNet: Dynamic Global Convolution Network for DOA Estimation
+# DGCNet: Dynamic Global Convolution Network for DOA Estimation (IEEE Transactions on Cognitive Communications and Networking)
 
 This repository contains the official implementation of **DGCNet**, a deep learning framework designed for high-precision Direction of Arrival (DOA) estimation.
 
@@ -136,3 +136,15 @@ Estimate: [-48.48, -34.12, -13.98, -0.89, 10.92, 27.05, 44.11]
 ## 📝 License
 
 [MIT License]
+
+## If you use our model, please cite:
+@ARTICLE{11803035,
+  author={Dong, Xudong and Zhu, Weijie and Zhao, Jun and Zhang, Yao and Zhang, Xiaofei and Dang, Xiaoyu and Yan, Chenggang},
+  journal={IEEE Transactions on Cognitive Communications and Networking}, 
+  title={DGCNet: A Deep Learning-Based Method for DOA Estimation via Dynamic Global Convolution}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Direction-of-arrival (DOA) estimation;array signal processing;deep learning;fine-tuning;off-grid estimation},
+  doi={10.1109/TCCN.2026.3755099}}
